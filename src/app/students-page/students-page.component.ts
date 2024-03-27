@@ -7,4 +7,14 @@ import { Component } from '@angular/core';
 })
 export class StudentsPageComponent {
 
+  verLista = false;
+
+  alumnos = [
+    { nombre: 'Pablo', estado: true },
+    { nombre: 'María', estado: false },
+    { nombre: 'Pedro', estado: true },
+    { nombre: 'Ana', estado: false },
+    { nombre: 'Luis', estado: true }
+  ];
+
 }
